@@ -55,7 +55,7 @@ options:
 
 
 def main(cmdline: List[str] = None) -> int:
-    """Entry-point for `dist_exe server`."""
+    """Entry-point for `dist_exe client`."""
     try:
         if not cmdline:
             print(USAGE)
