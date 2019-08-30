@@ -11,11 +11,11 @@
 """Package metadata for dist_exe."""
 
 __appname__     = 'dist_exe'
-__version__     = '0.0.1'
+__version__     = '0.0.2'
 __authors__     = 'Geoffrey Lentner'
 __contact__     = '<glentner@purdue.edu>'
 __license__     = 'Apache License 2.0'
-__copyright__   = 'Copyright (c) Geoffrey Lentner 2018. All Rights Reserved.'
+__copyright__   = 'Geoffrey Lentner 2019. All Rights Reserved.'
 __description__ = 'Distributed execution utility.'
 __keywords__    = 'distributed asynchronous queue'
 __website__     = 'https://github.com/glentner/dist_exe'
