@@ -6,7 +6,7 @@ Distributed Executor
 
 A cross-platform reference implementation for processing shell commands over
 a distributed, asynchronous queue. `dist_exe` is a single producer
-(server) many consumer (client) system. It functions similar to _GNU Parallel_
+(server) many consumer (client) system. It functions similar to *GNU Parallel*
 but scales out to many servers and even across operating systems.
 
 This tool uses only standard library methods so there are no dependencies.

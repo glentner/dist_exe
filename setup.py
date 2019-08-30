@@ -37,6 +37,7 @@ setup(
     url              = __website__,
     packages         = find_packages(),
     long_description = readme_file(),
+    long_description_content_type='text/markdown',
     classifiers      = ['Development Status :: 4 - Beta',
                         'Programming Language :: Python :: 3.7',
                         'License :: OSI Approved :: Apache Software License', ],
