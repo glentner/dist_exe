@@ -38,7 +38,6 @@ setup(
     packages         = find_packages(),
     long_description = readme_file(),
     classifiers      = ['Development Status :: 4 - Beta',
-                        'Topic :: Scientific/Engineering',
                         'Programming Language :: Python :: 3.7',
                         'License :: OSI Approved :: Apache Software License', ],
     install_requires = [],
