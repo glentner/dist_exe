@@ -18,7 +18,7 @@ Installation
 ------------
 
 ```
-pip install git+https://github.com/glentner/dist_exe [--upgrade] [--user]
+pip install dist_exe [--upgrade] [--user]
 ```
 
 
