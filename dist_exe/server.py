@@ -73,7 +73,8 @@ def main(cmdline: List[str] = None) -> int:
                 opt.authkey = opt.authkey.encode()
 
         log.info(f'starting server on port {opt.port}')
-        with QueueServer(address=('localhost', opt.port), authkey=opt.authkey, maxsize=opt.maxsize) as server:
+        with QueueServer(address=('localhost', opt.port), authkey=opt.authkey,
+                         maxsize=opt.maxsize) as server:
             for line in sys.stdin:
                 log.info(f'queueing {line.strip()}')
                 server.queue.put(line.strip())
