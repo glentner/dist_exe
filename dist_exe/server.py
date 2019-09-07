@@ -21,7 +21,7 @@ from .logging import get_logger
 from .queue import QueueServer, ADDRESS, AUTHKEY, MAXSIZE
 
 
-# client side logger
+# server side logger
 log = get_logger(f'{__appname__} server:')
 
 # command line interface
